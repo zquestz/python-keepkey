@@ -81,7 +81,7 @@ How to install (virtualenv)
 * Clone repository
 * Run "virtualenv env" in the project root
 * Run "source env/bin/activate"
-* Run "python setup.py install"
+* Run "pip install ."
 
 How to install (Windows)
 ------------------------
@@ -96,7 +96,7 @@ How to install (Debian-Ubuntu)
 * sudo apt-get install python-dev python-setuptools cython libusb-1.0-0-dev libudev-dev git
 * git clone https://github.com/keepkey/python-keepkey.git
 * cd python-keepkey
-* python setup.py install (or develop)
+* pip install .
 
 Running Tests
 -------------
